@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c3rxtc5ut75sv"]
+
+[ext_resource type="Shader" uid="uid://cnu2mdme0t3au" path="res://lava.gdshader" id="1_iqoer"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_iqoer")
+shader_parameter/dark_lava_color = Color(0.9843137, 0.37254903, 0, 1)
+shader_parameter/light_lava_color = Color(0.77254903, 0.80784315, 0, 1)
+shader_parameter/speed = 0.450000021375
+shader_parameter/scale = 22.00000104174012
+shader_parameter/sharpness = 17.00000076
+shader_parameter/emission_intensity = 1.0000000475
