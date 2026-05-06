@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dpajekcffu4g" path="res://Scenes/su_24_arthur_hus.tscn" id="1_eqwxc"]
 [ext_resource type="PackedScene" uid="uid://cgu1edc3htpk8" path="res://Scenes/player.tscn" id="2_37o81"]
+[ext_resource type="PackedScene" uid="uid://dip5h4v2iodjn" path="res://teknisk komponent kugghjul.blend" id="3_7on6j"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_37o81"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -28,6 +29,7 @@ environment = SubResource("Environment_6jfb0")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=2032243412]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+light_color = Color(1, 0.14509805, 1, 1)
 shadow_enabled = true
 
 [node name="Ground" type="MeshInstance3D" parent="." unique_id=142062415]
@@ -43,4 +45,21 @@ shape = SubResource("ConcavePolygonShape3D_eqwxc")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.66960144, 8.0221615)
 
 [node name="SU24-Arthur-Hus" parent="." unique_id=1425975853 instance=ExtResource("1_eqwxc")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, -6.331723)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -10.097519, 0, -12.672922)
+
+[node name="SU24-Arthur-Hus2" parent="." unique_id=581338070 instance=ExtResource("1_eqwxc")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.6776724, 0, -12.672922)
+
+[node name="SU24-Arthur-Hus3" parent="." unique_id=1619652543 instance=ExtResource("1_eqwxc")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 12.293392, 0, -12.672922)
+
+[node name="teknisk komponent kugghjul" parent="." unique_id=430934993 instance=ExtResource("3_7on6j")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -10.15707, 0.053515434, 15.193601)
+
+[node name="Ta bort filips csn" type="Label3D" parent="." unique_id=1507245185]
+transform = Transform3D(0.044052824, 0, -0.29674795, 0, 0.3, 0, 0.29674795, 0, 0.044052824, -8.5869255, 1.8725958, 13.843069)
+pixel_size = 0.025
+text = "Ta bort Filips CSN
+
+
+"

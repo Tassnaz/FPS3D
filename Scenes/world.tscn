@@ -127,7 +127,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_fo5ed")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Objects/Platform 5/StaticBody3D" unique_id=88672996]
 shape = SubResource("ConcavePolygonShape3D_fo5ed")
 
-[node name="Text" type="Label3D" parent="." unique_id=1790255996]
+[node name="Ta bort filips csn" type="Label3D" parent="." unique_id=1790255996]
 transform = Transform3D(0.14684275, 0, -0.9891598, 0, 1, 0, 0.9891598, 0, 0.14684275, 2.668919, 1.8725958, 0)
 pixel_size = 0.025
 text = "Ta bort Filips CSN
