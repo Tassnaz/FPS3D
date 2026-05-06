@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dpajekcffu4g"]
+
+[ext_resource type="PackedScene" uid="uid://ix3k0en40ls0" path="res://SU24-Arthur-Hus.blend" id="1_sdscn"]
+
+[node name="SU24-Arthur-Hus" unique_id=1425975853 instance=ExtResource("1_sdscn")]
